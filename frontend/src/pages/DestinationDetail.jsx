@@ -44,16 +44,31 @@ const DestinationDetail = () => {
         return staticExtras.gallery;
     };
 
+    const normalizeActivities = (raw) => {
+        if (!raw) return [];
+        if (Array.isArray(raw)) return raw;
+        if (typeof raw === 'string') {
+            try {
+                const parsed = JSON.parse(raw);
+                return Array.isArray(parsed) ? parsed : [];
+            } catch {
+                return [];
+            }
+        }
+        if (typeof raw === 'object') return [raw];
+        return [];
+    };
+
     // Build activities from database activities field or fallback to static
     const buildActivities = () => {
-        // If database has activities, use them
-        if (destination?.activities && destination.activities.length > 0) {
-            return destination.activities
-                .filter(a => a.title && a.title.trim())
+        const activitiesFromDb = normalizeActivities(destination?.activities);
+        if (activitiesFromDb.length > 0) {
+            return activitiesFromDb
+                .filter(a => a?.title && a.title.trim())
                 .map(a => ({
                     title: a.title,
                     image: a.image ? getImageUrl(a.image) : null,
-                    items: a.items || []
+                    items: Array.isArray(a.items) ? a.items : []
                 }));
         }
         // Otherwise use static activities data
