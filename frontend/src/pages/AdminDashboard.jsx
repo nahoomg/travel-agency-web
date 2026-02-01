@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../api';
-import { Users, Calendar, DollarSign, MessageSquare, RefreshCw, BarChart3, Shield } from 'lucide-react';
+import { Users, Calendar, DollarSign, MessageSquare, RefreshCw, BarChart3, Shield } from '../components/Icon';
 
 import AdminSidebar from '../components/admin/AdminSidebar';
 import OverviewTab from '../components/admin/OverviewTab';

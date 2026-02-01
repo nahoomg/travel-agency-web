@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { api, formatPrice } from '../api';
-import { Calendar, ArrowRight } from 'lucide-react';
+import { Calendar, ArrowRight } from '../components/Icon';
 import { destinationExtras } from '../data/destinationExtras';
 
 // Components

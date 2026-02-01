@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Calendar, Users, ChevronRight } from 'lucide-react';
+import { Calendar, Users, ChevronRight } from '../Icon';
 import { formatDate, formatPrice } from '../../api';
 
 const getStatusStyle = (status) => {

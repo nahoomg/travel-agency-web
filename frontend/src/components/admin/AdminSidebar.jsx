@@ -1,5 +1,5 @@
 import React from 'react';
-import { LogOut } from 'lucide-react';
+import { LogOut } from '../Icon';
 
 const AdminSidebar = ({ tabs, activeTab, setActiveTab, logout, navigate }) => {
     return (

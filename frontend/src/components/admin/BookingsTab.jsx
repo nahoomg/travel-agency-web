@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check, X } from 'lucide-react';
+import { Check, X } from '../Icon';
 import { formatDate } from '../../api';
 
 const BookingsTab = ({ bookings, updateBookingStatus }) => {

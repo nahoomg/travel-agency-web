@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { api, formatPrice } from '../api';
-import { Clock, Users, MapPin, ArrowRight, Star } from 'lucide-react';
+import { Clock, Users, MapPin, ArrowRight, Star } from '../components/Icon';
 
 const Packages = () => {
     const [packages, setPackages] = useState([]);

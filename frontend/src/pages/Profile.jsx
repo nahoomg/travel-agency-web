@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { api } from '../api';
 import { useAuth } from '../context/AuthContext';
-import { CheckCircle, AlertCircle } from 'lucide-react';
+import { CheckCircle, AlertCircle } from '../components/Icon';
 import ProfileSidebar from '../components/profile/ProfileSidebar';
 import BookingsList from '../components/profile/BookingsList';
 import BookingDetailsModal from '../components/profile/BookingDetailsModal';

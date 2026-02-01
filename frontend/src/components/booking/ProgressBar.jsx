@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check } from 'lucide-react';
+import { Check } from '../Icon';
 
 const stepLabels = ['Trip Details', 'Accommodation', 'Services', 'Review'];
 

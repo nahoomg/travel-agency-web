@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, Quote } from 'lucide-react';
+import { Star, Quote } from '../Icon';
 
 const testimonials = [
     { name: 'Hewan Adam', role: 'Travel Enthusiast', text: 'The trip was absolutely amazing! The team organized everything perfectly, making it an unforgettable experience. Highly recommended!', rating: 5, avatar: '👩' },

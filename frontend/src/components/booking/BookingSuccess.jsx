@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { CheckCircle, Calendar, Users, Mail, DollarSign } from 'lucide-react';
+import { CheckCircle, Calendar, Users, Mail, DollarSign } from '../Icon';
 import { formatPrice } from '../../api';
 
 const BookingSuccess = ({ bookingRef, pkg, destination, formData, total, isCustomBooking }) => {

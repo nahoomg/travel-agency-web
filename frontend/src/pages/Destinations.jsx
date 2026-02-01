@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { api } from '../api';
 import DestinationCard from '../components/DestinationCard';
-import { Search, Filter } from 'lucide-react';
+import { Search, Filter } from '../components/Icon';
 
 const Destinations = () => {
     const [destinations, setDestinations] = useState([]);

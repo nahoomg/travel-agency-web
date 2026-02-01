@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send, CheckCircle, Clock, Globe, AlertCircle } from 'lucide-react';
+import { Send, CheckCircle, Clock, Globe, AlertCircle } from '../Icon';
 import { api } from '../../api';
 
 const ContactForm = () => {

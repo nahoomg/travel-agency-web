@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { CheckCircle, ArrowLeft, AlertTriangle } from 'lucide-react';
+import { CheckCircle, ArrowLeft, AlertTriangle } from '../Icon';
 import { formatPrice } from '../../api';
 import { roomTypes, carOptions, additionalServices, languageOptions } from '../../data/bookingOptions';
 

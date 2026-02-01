@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { X, ChevronLeft, ChevronRight } from '../Icon';
 
 const Lightbox = ({ gallery, lightboxOpen, lightboxIndex, closeLightbox, prevImage, nextImage }) => {
     if (!lightboxOpen || !gallery || gallery.length === 0) return null;

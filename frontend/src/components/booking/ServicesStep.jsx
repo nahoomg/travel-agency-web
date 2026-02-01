@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, Car, Shield, Check, ArrowRight, ArrowLeft, AlertCircle, Info } from 'lucide-react';
+import { User, Car, Shield, Check, ArrowRight, ArrowLeft, AlertCircle, Info } from '../Icon';
 import { formatPrice } from '../../api';
 import { carOptions, additionalServices, languageOptions } from '../../data/bookingOptions';
 

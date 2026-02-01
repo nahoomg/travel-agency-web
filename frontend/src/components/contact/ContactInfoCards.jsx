@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock } from '../Icon';
 
 const contactInfo = [
     { icon: <Phone size={20} />, label: 'Phone', value: '+251 58 123 4567', subtext: 'Office: Mon-Fri 8am-6pm, Sat 9am-4pm' },

@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { api } from '../api';
 import { useAuth } from '../context/AuthContext';
 import { roomTypes, carOptions, additionalServices } from '../data/bookingOptions';
-import { AlertCircle } from 'lucide-react';
+import { AlertCircle } from '../components/Icon';
 import ProgressBar from '../components/booking/ProgressBar';
 import TripDetailsStep from '../components/booking/TripDetailsStep';
 import AccommodationStep from '../components/booking/AccommodationStep';

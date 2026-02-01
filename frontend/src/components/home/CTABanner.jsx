@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight } from '../Icon';
 import { Link } from 'react-router-dom';
 
 const CTABanner = () => (

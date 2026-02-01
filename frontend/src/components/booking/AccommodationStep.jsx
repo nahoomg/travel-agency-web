@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Hotel, ArrowRight, ArrowLeft, AlertCircle } from 'lucide-react';
+import { Hotel, ArrowRight, ArrowLeft, AlertCircle } from '../Icon';
 import { formatPrice } from '../../api';
 import { roomTypes } from '../../data/bookingOptions';
 

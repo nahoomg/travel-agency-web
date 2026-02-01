@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import BenefitsPanel from '../components/auth/BenefitsPanel';
 import AuthFormContainer from '../components/auth/AuthFormContainer';
-import { AlertCircle, CheckCircle } from 'lucide-react';
+import { AlertCircle, CheckCircle } from '../components/Icon';
 
 /**
  * Register Page

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Edit2 } from 'lucide-react';
+import { Mail, Edit2 } from '../Icon';
 
 const ProfileSidebar = ({ user, editMode, setEditMode, editForm, setEditForm, handleSaveProfile, saving }) => {
     return (

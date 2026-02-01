@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { api } from '../api';
 import { useAuth } from '../context/AuthContext';
-import { X, Calendar, Users, CheckCircle } from 'lucide-react';
+import { X, Calendar, Users, CheckCircle } from './Icon';
 
 const BookingModal = ({ pkg, onClose }) => {
     const { user } = useAuth();

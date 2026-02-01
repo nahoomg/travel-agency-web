@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { api, formatPrice } from '../api';
 import { useAuth } from '../context/AuthContext';
-import { ArrowRight, ArrowLeft, Loader, Check, MapPin, AlertCircle } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Loader, Check, MapPin, AlertCircle } from '../components/Icon';
 import { roomTypes, carOptions, additionalServices } from '../data/bookingOptions';
 
 // Step Components

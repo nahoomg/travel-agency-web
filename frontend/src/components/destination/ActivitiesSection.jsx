@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight } from '../Icon';
 
 const ActivitiesSection = ({ activities, destination }) => {
     if (!activities || activities.length === 0) return null;

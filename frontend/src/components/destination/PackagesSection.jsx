@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Clock, ArrowRight, Calendar } from 'lucide-react';
+import { Clock, ArrowRight, Calendar } from '../Icon';
 import { formatPrice } from '../../api';
 
 const PackagesSection = ({ packages, destination, slug, getImageUrl }) => {

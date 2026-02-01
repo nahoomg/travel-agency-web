@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { CheckCircle, XCircle, AlertCircle, X } from 'lucide-react';
+import { CheckCircle, XCircle, AlertCircle, X } from '../Icon';
 
 // Toast notification component
 const Toast = ({ message, type, onClose }) => {

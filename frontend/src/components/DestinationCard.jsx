@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { formatPrice } from '../api';
-import { MapPin, ArrowRight } from 'lucide-react';
+import { MapPin, ArrowRight } from './Icon';
 
 // Helper to encode image URLs with special characters
 const encodeImageUrl = (url) => {

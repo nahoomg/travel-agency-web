@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, User, Mail, Phone, ArrowRight, AlertCircle } from 'lucide-react';
+import { Calendar, User, Mail, Phone, ArrowRight, AlertCircle } from '../Icon';
 
 const TripDetailsStep = ({ formData, updateForm, setFormData, pkg, destination, onNext }) => {
     const [errors, setErrors] = useState({});

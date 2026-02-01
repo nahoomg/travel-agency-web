@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { Menu, X, User, LogOut, ChevronDown } from 'lucide-react';
+import { Menu, X, User, LogOut, ChevronDown } from './Icon';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);

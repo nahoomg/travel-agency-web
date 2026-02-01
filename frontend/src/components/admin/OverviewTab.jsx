@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight, ArrowDownRight, MapPin, Package, Hotel } from 'lucide-react';
+import { ArrowUpRight, ArrowDownRight, MapPin, Package, Hotel } from '../Icon';
 
 const OverviewTab = ({ stats, statCards }) => {
     return (

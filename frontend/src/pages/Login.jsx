@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, Link, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { Lock, Mail, ArrowRight, Compass, CheckCircle, AlertCircle } from 'lucide-react';
+import { Lock, Mail, ArrowRight, Compass, CheckCircle, AlertCircle } from '../components/Icon';
 
 const Login = () => {
     const [formData, setFormData] = useState({ email: '', password: '' });

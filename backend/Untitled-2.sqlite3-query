@@ -1,3 +1,0 @@
--- database: c:\Users\Nahom\Videos\Ethiopia Travel Agency Website\backend\travel_agency.db
-
-SELECT * FROM bookings;

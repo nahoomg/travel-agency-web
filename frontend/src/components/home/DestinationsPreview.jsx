@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin, ArrowRight } from 'lucide-react';
+import { MapPin, ArrowRight } from '../Icon';
 import { api } from '../../api';
 
 // Helper to encode image URLs with special characters (spaces, parentheses, etc.)
